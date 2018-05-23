@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lSF-tz-uDg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Plane Detection View Controller-->
+        <scene sceneID="nVf-Ge-nrP">
+            <objects>
+                <viewController id="lSF-tz-uDg" customClass="planeDetectionViewController" customModule="ARchaeology" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y3t-gz-Uh9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMl-gq-vZs">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <connections>
+                                    <outlet property="delegate" destination="lSF-tz-uDg" id="EXM-eM-aUQ"/>
+                                </connections>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UlM-5k-rw6" firstAttribute="bottom" secondItem="xMl-gq-vZs" secondAttribute="bottom" id="5D6-Rx-zoo"/>
+                            <constraint firstAttribute="trailing" secondItem="xMl-gq-vZs" secondAttribute="trailing" id="OcO-2A-xrg"/>
+                            <constraint firstItem="xMl-gq-vZs" firstAttribute="leading" secondItem="UlM-5k-rw6" secondAttribute="leading" id="QB2-mP-4wl"/>
+                            <constraint firstItem="xMl-gq-vZs" firstAttribute="top" secondItem="UlM-5k-rw6" secondAttribute="top" id="xu2-af-mYl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UlM-5k-rw6"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="xMl-gq-vZs" id="rhq-cm-GMJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mXX-Tu-uOr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="144"/>
+        </scene>
+    </scenes>
+</document>

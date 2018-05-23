@@ -1,0 +1,15 @@
+//
+//  TutorialTypes.swift
+//  ARchaeology
+//
+//  Created by Sharon Van Hove on 4/19/18.
+//  Copyright © 2018 Sharon Van Hove. All rights reserved.
+//
+
+import Foundation
+
+enum TutorialTypes {
+    case featurePoints
+    case planeDetection
+    case hitTest
+}

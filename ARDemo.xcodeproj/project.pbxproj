@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA8FBD682088C54F003B8DE2 /* TutorialType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FBD672088C54F003B8DE2 /* TutorialType.swift */; };
+		DA8FBD6B2088CC5D003B8DE2 /* UIView+border.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FBD6A2088CC5D003B8DE2 /* UIView+border.swift */; };
 		DAD439F9208880E300F1E65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD439F8208880E300F1E65B /* AppDelegate.swift */; };
 		DAD439FB208880E300F1E65B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD439FA208880E300F1E65B /* art.scnassets */; };
-		DAD439FD208880E300F1E65B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD439FC208880E300F1E65B /* ViewController.swift */; };
-		DAD43A00208880E300F1E65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD439FE208880E300F1E65B /* Main.storyboard */; };
 		DAD43A02208880E400F1E65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD43A01208880E400F1E65B /* Assets.xcassets */; };
 		DAD43A05208880E400F1E65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD43A03208880E400F1E65B /* LaunchScreen.storyboard */; };
+		DAD43A112088822900F1E65B /* FeaturePointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD43A102088822900F1E65B /* FeaturePointsViewController.swift */; };
+		DAD43A132088823A00F1E65B /* FeaturePoints.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD43A122088823A00F1E65B /* FeaturePoints.storyboard */; };
+		DAD43A1620888CB700F1E65B /* PlaneDetection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD43A1520888CB700F1E65B /* PlaneDetection.storyboard */; };
+		DAD43A1820888CC600F1E65B /* PlaneDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD43A1720888CC600F1E65B /* PlaneDetectionViewController.swift */; };
+		DAD43A1B2088985200F1E65B /* HitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD43A1A2088985200F1E65B /* HitTestViewController.swift */; };
+		DAD43A1D2088985D00F1E65B /* HitTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD43A1C2088985D00F1E65B /* HitTest.storyboard */; };
+		DAD43A202088ACE100F1E65B /* TutorialCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD43A1F2088ACE100F1E65B /* TutorialCollectionViewController.swift */; };
+		DAD43A222088ACF100F1E65B /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD43A212088ACF100F1E65B /* Tutorial.storyboard */; };
+		DAD43A242088B22300F1E65B /* TutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD43A232088B22300F1E65B /* TutorialCollectionViewCell.swift */; };
+		DAD43A272088B8B800F1E65B /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD43A262088B8B800F1E65B /* Tutorial.swift */; };
+		DAD43A292088BB4500F1E65B /* TutorialColllectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD43A282088BB4500F1E65B /* TutorialColllectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA8FBD672088C54F003B8DE2 /* TutorialType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialType.swift; sourceTree = "<group>"; };
+		DA8FBD6A2088CC5D003B8DE2 /* UIView+border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+border.swift"; sourceTree = "<group>"; };
 		DAD439F5208880E300F1E65B /* ARchaeology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARchaeology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD439F8208880E300F1E65B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAD439FA208880E300F1E65B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		DAD439FC208880E300F1E65B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAD439FF208880E300F1E65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAD43A01208880E400F1E65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD43A04208880E400F1E65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD43A06208880E400F1E65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD43A102088822900F1E65B /* FeaturePointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturePointsViewController.swift; sourceTree = "<group>"; };
+		DAD43A122088823A00F1E65B /* FeaturePoints.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeaturePoints.storyboard; sourceTree = "<group>"; };
+		DAD43A1520888CB700F1E65B /* PlaneDetection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlaneDetection.storyboard; sourceTree = "<group>"; };
+		DAD43A1720888CC600F1E65B /* PlaneDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionViewController.swift; sourceTree = "<group>"; };
+		DAD43A1A2088985200F1E65B /* HitTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestViewController.swift; sourceTree = "<group>"; };
+		DAD43A1C2088985D00F1E65B /* HitTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HitTest.storyboard; sourceTree = "<group>"; };
+		DAD43A1F2088ACE100F1E65B /* TutorialCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewController.swift; sourceTree = "<group>"; };
+		DAD43A212088ACF100F1E65B /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		DAD43A232088B22300F1E65B /* TutorialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAD43A262088B8B800F1E65B /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		DAD43A282088BB4500F1E65B /* TutorialColllectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialColllectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA8FBD692088CC50003B8DE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA8FBD6A2088CC5D003B8DE2 /* UIView+border.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DAD439EC208880E200F1E65B = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +86,90 @@
 		DAD439F7208880E300F1E65B /* ARchaeology */ = {
 			isa = PBXGroup;
 			children = (
+				DA8FBD692088CC50003B8DE2 /* Extensions */,
+				DAD43A252088B8AC00F1E65B /* Models */,
+				DAD43A0C2088813500F1E65B /* Modules */,
+				DAD43A0D2088817500F1E65B /* UI */,
 				DAD439F8208880E300F1E65B /* AppDelegate.swift */,
-				DAD439FA208880E300F1E65B /* art.scnassets */,
-				DAD439FC208880E300F1E65B /* ViewController.swift */,
-				DAD439FE208880E300F1E65B /* Main.storyboard */,
-				DAD43A01208880E400F1E65B /* Assets.xcassets */,
-				DAD43A03208880E400F1E65B /* LaunchScreen.storyboard */,
 				DAD43A06208880E400F1E65B /* Info.plist */,
 			);
 			path = ARchaeology;
+			sourceTree = "<group>";
+		};
+		DAD43A0C2088813500F1E65B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A1E2088AC7800F1E65B /* Tutorials */,
+				DAD43A0E208881EC00F1E65B /* AR */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DAD43A0D2088817500F1E65B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A01208880E400F1E65B /* Assets.xcassets */,
+				DAD439FA208880E300F1E65B /* art.scnassets */,
+				DAD43A03208880E400F1E65B /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DAD43A0E208881EC00F1E65B /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A0F2088821100F1E65B /* featurePoints */,
+				DAD43A1420888C9700F1E65B /* planeDetection */,
+				DAD43A192088944900F1E65B /* hitTests */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		DAD43A0F2088821100F1E65B /* featurePoints */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A122088823A00F1E65B /* FeaturePoints.storyboard */,
+				DAD43A102088822900F1E65B /* FeaturePointsViewController.swift */,
+			);
+			path = featurePoints;
+			sourceTree = "<group>";
+		};
+		DAD43A1420888C9700F1E65B /* planeDetection */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A1520888CB700F1E65B /* PlaneDetection.storyboard */,
+				DAD43A1720888CC600F1E65B /* PlaneDetectionViewController.swift */,
+			);
+			path = planeDetection;
+			sourceTree = "<group>";
+		};
+		DAD43A192088944900F1E65B /* hitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A1C2088985D00F1E65B /* HitTest.storyboard */,
+				DAD43A1A2088985200F1E65B /* HitTestViewController.swift */,
+			);
+			path = hitTests;
+			sourceTree = "<group>";
+		};
+		DAD43A1E2088AC7800F1E65B /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A212088ACF100F1E65B /* Tutorial.storyboard */,
+				DAD43A232088B22300F1E65B /* TutorialCollectionViewCell.swift */,
+				DAD43A282088BB4500F1E65B /* TutorialColllectionViewModel.swift */,
+				DAD43A1F2088ACE100F1E65B /* TutorialCollectionViewController.swift */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		DAD43A252088B8AC00F1E65B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAD43A262088B8B800F1E65B /* Tutorial.swift */,
+				DA8FBD672088C54F003B8DE2 /* TutorialType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +231,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD439FB208880E300F1E65B /* art.scnassets in Resources */,
+				DAD43A132088823A00F1E65B /* FeaturePoints.storyboard in Resources */,
 				DAD43A05208880E400F1E65B /* LaunchScreen.storyboard in Resources */,
 				DAD43A02208880E400F1E65B /* Assets.xcassets in Resources */,
-				DAD43A00208880E300F1E65B /* Main.storyboard in Resources */,
+				DAD43A1D2088985D00F1E65B /* HitTest.storyboard in Resources */,
+				DAD43A1620888CB700F1E65B /* PlaneDetection.storyboard in Resources */,
+				DAD43A222088ACF100F1E65B /* Tutorial.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +247,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD439FD208880E300F1E65B /* ViewController.swift in Sources */,
+				DA8FBD6B2088CC5D003B8DE2 /* UIView+border.swift in Sources */,
+				DAD43A202088ACE100F1E65B /* TutorialCollectionViewController.swift in Sources */,
+				DAD43A292088BB4500F1E65B /* TutorialColllectionViewModel.swift in Sources */,
+				DAD43A1B2088985200F1E65B /* HitTestViewController.swift in Sources */,
+				DAD43A242088B22300F1E65B /* TutorialCollectionViewCell.swift in Sources */,
+				DAD43A112088822900F1E65B /* FeaturePointsViewController.swift in Sources */,
 				DAD439F9208880E300F1E65B /* AppDelegate.swift in Sources */,
+				DAD43A272088B8B800F1E65B /* Tutorial.swift in Sources */,
+				DAD43A1820888CC600F1E65B /* PlaneDetectionViewController.swift in Sources */,
+				DA8FBD682088C54F003B8DE2 /* TutorialType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DAD439FE208880E300F1E65B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAD439FF208880E300F1E65B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAD43A03208880E400F1E65B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZYPT887QH;
 				INFOPLIST_FILE = ARchaeology/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZYPT887QH;
 				INFOPLIST_FILE = ARchaeology/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
